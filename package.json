@@ -6,7 +6,7 @@
     "lint": "npm run lint:styles; npm run lint:scripts",
     "lint:styles": "stylelint src",
     "lint:scripts": "eslint src",
-    "buildProduction": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
+    "production": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
     "start": "webpack serve --config webpack/webpack.config.dev.js"
     
   },
